@@ -46,11 +46,11 @@ Requerimiento minimo del desarrollo de la etiquetas **HTML**.
 ```
 
 ## Descripción
-Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.
+Los estudiantes basados en el sitio web construido durante la sesión 4 en donde se actualizó utilizando VUE, el sitio web desarrollado en la sesión 1; deberán hacer uso de los componentes reutilizables de VUE y de las APIs explicadas durante la sesión 3.
 
-Para iniciar con el desarrollo del sitio web, los estudiantes deberán definir previamente aspectos como ancho del sitio (mínimo 1200px), la información a presentar en el sitio web, diseñar un mockup, borrador o bosquejo, también descargar, diseñar o crear los recursos a utilizar como imágenes, iconos, logos, entre otros y finalmente asignar responsable a cada sección.
+El sitio web resultante deberá contar con las secciones de encabezado, en donde estará el menú y el banner, una sección intermedia que presentará, en el mismo formato de las 4 noticias en dos filas y 2 columnas, el uso de una API a elección de los estudiantes, recomendamos una API de noticias como Colombia news API o la API de películas vista durante la sesión 3.
 
-El proyecto, deberá manejarse versionado en un repositorio remoto en github, en el que los diferentes miembros del equipo deben tener acceso, no se permite el push directo a las ramas Dev o Master.
+Se debe contar con una sección para los integrantes que consumirá la información de los miembros desde un JSON tal como se explicó en la sesión 4.
 
 ## Diseño
 <div align="center">
