@@ -1,2 +1,2 @@
-export * from './data.js'
+export * from './js/data.js'
 
