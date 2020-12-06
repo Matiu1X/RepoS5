@@ -32,7 +32,7 @@ export default {
   name: 'App',
 
   components: {
-    TeamCard
+    TeamCard,
     ComponenteFooter,
     ComponenteNav,
     ComponenteHeader,
