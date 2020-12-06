@@ -4,7 +4,7 @@
       <footer class="page-footer font-small pt-4">
 
         <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
+        <div class="container-fluid text-center text-md-left bg-secundary __all">
 
           <!-- Grid row -->
           <div class="row">
