@@ -36,18 +36,18 @@
     "test": "tests"
   },
   "eslintConfig": {
-	"root": true,
-	"env": {
-	  "node": true
-	},
-	"extends": [
-	  "plugin:vue/essential",
-	  "eslint:recommended"
-	],
-	"parserOptions": {
-	  "parser": "babel-eslint"
-	},
-	"rules": {}
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
   },
   "repository": {
     "type": "git",
