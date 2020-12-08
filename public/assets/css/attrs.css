@@ -82,8 +82,8 @@
 .color-secundary{color:var(--secundary-color) !important;}
 .color-secundary.__all * {color:var(--secundary-color) !important;}
 
-.color-dark{color:var(--dark-color) !important;}
-.color-dark.__all * {color:var(--dark-color) !important;}
+.color-dark{color:var(--text-color) !important;}
+.color-dark.__all * {color:var(--text-color) !important;}
 
 .color-complementary{color:var(--complementary-color) !important;}
 .color-complementary.__all * {color:var(--complementary-color) !important;}

@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
 import { ServiceCard } from '../components'
 import { services } from '../assets/data'
 

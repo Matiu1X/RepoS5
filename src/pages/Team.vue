@@ -5,17 +5,19 @@
 			<i class="ico-awesome ico-users color-secundary"></i>
 		</div>
 		<div class="d-flex p-2 bd-highlight d-flex justify-content-around">
-			<team-card v-for="(MemberObj, index) in members" :key="`${index}-team`" :member="MemberObj"></team-card>
+			<team-card v-for="(member, index) in members" :key="`${index}-team`" :member="member"></team-card>
 		</div> 
 
 	</section>
 </template>
 
 <script>
+
 import { TeamCard } from '../components'
-import { team } from '../assets'
+import { team } from '../assets/data'
+
 export default {
-	name: 'TeamPage',
+	name: 'PageTeam',
 	components: {
 		TeamCard,
 	},

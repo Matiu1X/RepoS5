@@ -1,9 +1,9 @@
-import NewsPage from './News.vue';
-import TeamPage from './Team.vue';
-import ServicePage from './Service.vue';
+import PageNews from './News.vue';
+import PageTeam from './Team.vue';
+import PageServices from './Services.vue';
 
 export {
-	NewsPage,
-	TeamPage,
-	ServicePage,
+	PageNews,
+	PageTeam,
+	PageServices,
 };
