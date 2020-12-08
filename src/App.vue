@@ -2,9 +2,19 @@
 	<div id="app">
 		<componente-nav></componente-nav>
 		<componente-header></componente-header>
-		
-		<services-card></services-card>
 
+    <section id="services">
+        <div class="text-center">
+          <h2 class="card-title" style="color: #49A078">OUR SERVICES</h2>	
+          <i class="ico-awesome ico-cogs color-secundary"></i>
+        </div>
+        <div>	
+            <div class="d-flex p-2 bd-highlight d-flex justify-content-around ">  
+              <services-card v-for="service in servicios" :key="service.servtitulo" :services="service"></services-card>
+            </div>
+        </div>
+    </section>
+    
 		<!--<service-page></service-page>-->
 		<news-page></news-page>
 		<!--<team-page></team-page>-->
@@ -28,6 +38,7 @@
 import ServicesCard from './components/ServicesCard.vue'
 import TeamCard from './components/TeamCard.vue'
 import TeamJSON from './assets/Team.js'
+import services from './assets/Services.js';
 
 import ComponenteFooter from './components/ComponenteFooter.vue'
 import ComponenteNav from './components/ComponenteNav.vue'
@@ -49,7 +60,8 @@ export default {
 	},
 	data(){
 		return {
-			equipo: TeamJSON
+			equipo: TeamJSON,
+      servicios: services
 		}
 	}
 }
