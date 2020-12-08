@@ -12,12 +12,12 @@
 </template>
 
 <script>
-    export default {
-        name: 'NewsCard',
-        props: {
+export default {
+	name: 'NewsCard',
+	props: {
 		news: Object,
 	}
-    }
+}
 </script>
 
 <style scoped>

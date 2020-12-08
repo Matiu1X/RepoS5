@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="d-flex p-2 bd-highlight flex-wrap justify-content-around">
-			<news-card v-for="(NewObj, index) in news" :key="`${index}-new`" :news="NewObj"></news-card>
+			<news-card v-for="(newo, index) in news" :key="`${index}-new`" :news="newo"></news-card>
 		</div>
 
 	</section>
@@ -16,7 +16,7 @@
 import { NewsCard } from '../components'
 
 export default {
-	name: 'NewsPage',
+	name: 'PageNews',
 	components: {
 		NewsCard
 	},
