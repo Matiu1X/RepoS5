@@ -1,0 +1,117 @@
+.p-1{padding:1% !important;}
+.m-1{margin:1% !important;}
+.px-1{padding:0px 1% !important;}
+.py-1{padding:1% 0px !important;}
+.mx-1{margin:0px 1% !important;}
+.my-1{margin:1% 0px !important;}
+
+.p-2{padding:2% !important;}
+.m-2{margin:2% !important;}
+.px-2{padding:0px 2% !important;}
+.py-2{padding:2% 0px !important;}
+.mx-2{margin:0px 2% !important;}
+.my-2{margin:2% 0px !important;}
+
+.p-3{padding:3% !important;}
+.m-3{margin:3% !important;}
+.px-3{padding:0px 3% !important;}
+.py-3{padding:3% 0px !important;}
+.mx-3{margin:0px 3% !important;}
+.my-3{margin:3% 0px !important;}
+
+.p-4{padding:4% !important;}
+.m-4{margin:4% !important;}
+.px-4{padding:0px 4% !important;}
+.py-4{padding:4% 0px !important;}
+.mx-4{margin:0px 4% !important;}
+.my-4{margin:4% 0px !important;}
+
+.p-5{padding:5% !important;}
+.m-5{margin:5% !important;}
+.px-5{padding:0px 5% !important;}
+.py-5{padding:5% 0px !important;}
+.mx-5{margin:0px 5% !important;}
+.my-5{margin:5% 0px !important;}
+
+.fs-50{font-size:50px !important;}
+.fs-40{font-size:40px !important;}
+.fs-30{font-size:30px !important;}
+.fs-20{font-size:20px !important;}
+.fs-12{font-size:12px !important;}
+
+.flex-is{position:relative;display:flex;justify-content:center;align-content:center;}
+.flex-jb{justify-content:space-between;}
+.flex-ja{justify-content:space-around;}
+.flex-jc{justify-content:center;}
+.flex-js{justify-content:flex-start;}
+.flex-je{justify-content:flex-end;}
+.flex-dc{flex-direction:column;}
+.flex-dr{flex-direction:row;}
+
+.icon{width:40px;height:40px;}
+.icon>*{stroke:var(--secundary-color);}
+.icon-color--main>*{stroke:var(--main-color);}
+.icon-color--dark>*{stroke:var(--text-color);}
+.icon-color--grey>*{stroke:var(--dark-color);}
+
+.border--a{border:var(--border-simple) solid var(--secundary-color);}
+.border--l{border-left:var(--border-bold) solid var(--secundary-color);}
+.border--r{border-right:var(--border-bold) solid var(--secundary-color);}
+.border--t{border-top:var(--border-bold) solid var(--secundary-color);}
+.border--b{border-bottom:var(--border-bold) solid var(--secundary-color);}
+.border--x{border-left:var(--border-bold) solid var(--secundary-color);border-right:var(--border-bold) solid var(--secundary-color);}
+.border--y{border-top:var(--border-bold) solid var(--secundary-color);border-bottom:var(--border-bold) solid var(--secundary-color);}
+.border--wb{border-width:var(--border-bold);}
+.border--ws{border-width:var(--border-simple);}
+
+.h-30{height:30% !important;}
+.h-70{height:70% !important;}
+.h-40{height:40% !important;}
+.h-60{height:60% !important;}
+.h-50{height:50% !important;}
+.w-30{width:30%	!important;}
+.w-70{width:70%	!important;}
+.w-40{width:40%	!important;}
+.w-60{width:60%	!important;}
+.w-50{width:50%	!important;}
+.w-100{width:100%;}
+
+.color-primary{color:var(--main-color) !important;}
+.color-primary.__all * {color:var(--main-color) !important;}
+
+.color-secundary{color:var(--secundary-color) !important;}
+.color-secundary.__all * {color:var(--secundary-color) !important;}
+
+.color-dark{color:var(--dark-color) !important;}
+.color-dark.__all * {color:var(--dark-color) !important;}
+
+.color-complementary{color:var(--complementary-color) !important;}
+.color-complementary.__all * {color:var(--complementary-color) !important;}
+
+.bg-primary{background:var(--main-color) !important; color:var(--text-color);}
+.bg-primary.__all * {background:var(--main-color) !important; color:var(--text-color);}
+
+.bg-secundary{background:var(--secundary-color) !important; color:var(--main-color);}
+.bg-secundary.__all  * {background:var(--secundary-color) !important; color:var(--main-color);}
+.bg-dark{background:var(--text-color) !important; color:var(--main-color);}
+.bg-dark.__all * {background:var(--text-color) !important; color:var(--main-color);}
+.bg-complementary{background:var(--complementary-color) !important;color:var(--main-color);}
+.bg-complementary.__all * {background:var(--complementary-color) !important;color:var(--main-color);}
+
+.align-center{text-align: center;}
+.align-left{text-align: left;}
+.button {
+	background-color:var(--dark-color);
+	margin:3px;
+	padding:2px 4px;
+}
+.read-more {
+	font-family:var(--secundary-color);
+	color:var(--secundary-color);
+	font-width:20px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.read-more:before {
+	content: "...read more";
+}

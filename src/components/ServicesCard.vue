@@ -1,5 +1,4 @@
 <template>
-  <!-- Services -->   
     <div class="border-0 card text-center" style="width: 400px;"> 
         <div class="text-center">
             <img style="width: 70px; margin-top: 10px" :src="services.servimage">

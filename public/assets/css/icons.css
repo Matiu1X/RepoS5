@@ -1,0 +1,48 @@
+@font-face{font-family:'icons-font-awesome';src: url('../font/font_awesome_icons/font-awesome-solid.otf') format('truetype');}
+/* https://github.com/vorillaz/devicons */
+@font-face{font-family:'icons-dev';src:url('../font/dev_icons/devicons.ttf') format('truetype');}
+@font-face {font-family:'icons-social';	src: url('../font/social_icons/socialicious.ttf') format('truetype');}
+
+.ico-media,.ico-awesome,.ico-dev {font-size:40px;padding:0px; margin: 0px;}
+.ico-1{font-size: 1.5em;}
+.ico-2{font-size: 2em;}
+.ico-3{font-size: 2.5em;}
+.ico-4{font-size: 3em;}
+.ico-25{font-size: 25%;}
+.ico-50{font-size: 50%;}
+.ico-75{font-size: 75%;}
+.ico-100{font-size: 100%;}
+.ico-awesome{font-family:'icons-font-awesome';}
+.ico-dev{font-family:'icons-dev'; background: none !important;}
+.ico-media{font-family:'icons-social';}
+
+/*Iconos sobre .ico-awesome*/
+.ico-web:before{content:"\f0ac";}
+.ico-search:before{content:"\f002";}
+.ico-users:before{content:"\f0c0";}
+.ico-marker:before{content:"\f3c5";}
+.ico-phone:before{content:"\f095";}
+.ico-wsp:before{content:"\f232";}
+.ico-cogs:before{content:"\f085";}
+.ico-heart:before{content:"\f21e";}
+.ico-university:before{content:"\f19c";}
+.ico-game:before{content:"\f11b";}
+.ico-age:before{content:"\f887";}
+.ico-email:before{content:"\f1fa";}
+
+/*Iconos sobre .ico-media*/
+.ico-fcb:before{content:"m";}
+.ico-twt:before{content:"Y";}
+.ico-int:before{content:"y";}
+.ico-lin:before{content:"E";}
+
+/*Iconos sobre .ico-dev*/
+.ico-git:before{content:"\e602";}
+.ico-css:before{content:"\e649";}
+.ico-html:before{content:"\e636";}
+.ico-linux:before{content:"\e612";}
+
+#dev-footer { display: flex; flex-direction: row; justify-content: center; width: 100%;}
+#dev-footer * {font-size:20px;}
+#dev-footer:before{content:'Develop with';}
+#dev-footer:after{content:' By Group 144';}
