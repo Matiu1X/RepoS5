@@ -11,6 +11,7 @@ const userStatus = {
 	methods: function () {
 		...mapMutations({
 			loginStore: 'signin'
+			logout
 		}),
 	},
 	mounted: function () {
