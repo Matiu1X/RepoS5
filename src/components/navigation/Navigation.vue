@@ -9,6 +9,13 @@
 				<b-nav-item href="#services">Services</b-nav-item>
 				<b-nav-item href="#news">News</b-nav-item>
 				<b-nav-item href="#team">Team</b-nav-item>
+				<li class="nav-item">
+					<router-link class="nav-link" to="/">Home</router-link>
+				</li>
+
+				<li class="nav-item" v-show="loginUser">
+					<router-link class="nav-link" to="/admin">Admin</router-link>
+				</li>
 			</b-navbar-nav>
 			
 			<b-navbar-nav class="ml-auto">

@@ -1,4 +1,4 @@
-import { PageHome, PageAbout, PageAdmin, PageLogin } from '../views';
+import { PageHome, PageAbout, PageAdmin, PageLogin, PageSignup } from '../views';
 import { auth } from '../middleware';
 
 import Vue from 'vue';
@@ -17,7 +17,11 @@ const routes = [
 		name: 'Login',
 		component: PageLogin,
 	},
-
+	{
+		path: '/signup',
+		name: 'Signup',
+		component: PageSignup,
+	},
 	{
 		path: '/about',
 		name: 'About',

@@ -1,5 +1,5 @@
 import { SectionNews, SectionTeam, SectionServices } from './sections';
-import { PageAbout, PageAdmin, PageHome, PageLogin } from './pages/';
+import { PageAbout, PageAdmin, PageHome, PageLogin, PageSignup } from './pages/';
 
 export {
 	SectionNews,
@@ -9,4 +9,5 @@ export {
 	PageAdmin,
 	PageHome,
 	PageLogin,
+	PageSignup
 };

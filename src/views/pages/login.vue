@@ -12,7 +12,4 @@ export default {
 </script>
 
 <style scoped>
-section#login {
-	margin: 10% 0px;
-}
 </style>

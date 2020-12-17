@@ -1,5 +1,5 @@
 import { mount} from "@vue/test-utils";
-import TeamCard from "../../src/components/TeamCard";
+import TeamCard from "../../src/components/card/Team.vue";
 import expect from 'expect';
 import Vue from 'vue'
 

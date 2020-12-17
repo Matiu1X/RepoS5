@@ -1,7 +1,11 @@
 <template>
-	<div class="w-25">
+	<div class="w-10" id="signin-template">
+		<div class="d-flex flex-row justify-content-center my-1">
+			<h2 class="fs-40">LOGIN</h2>     
+		</div>
+
 		<form class="d-flex flex-column">
-			<div class="form-group">
+			<div class="form-group ">
 				<label for="moubi-email-input">Email</label>
 				<div class="container-sm" style="width: 22rem;">
 					<input v-model="login.email"
@@ -9,7 +13,7 @@
 						class="form-control"
 						id="moubi-email-input">
 				</div>
-				<small id="emailHelp" class="form-text text-muted">Por su seguridad nunca comparta sus datos de ingreso.</small>
+				<small id="emailHelp" class="form-text text-muted text-center">Por su seguridad nunca comparta sus datos de ingreso.</small>
 			</div>
 			<div class="form-group">
 				<label for="moubi-password-input">Password</label>
@@ -21,7 +25,8 @@
 				</div>
 			</div>
 			<div class="container-fluid mb-3 d-flex justify-content-center ">
-				<button @click.prevent="LoginAccess" type="submit" class="btn btn-success px-5">SingIn</button>
+				<button @click.prevent="LoginAccess" type="submit" class="btn btn-success px-5 py-1">SingIn</button>
+				<router-link class="mx-5" to="/signup">signup?</router-link>
 			</div>
 		</form>
 	</div>
@@ -77,5 +82,6 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
 
