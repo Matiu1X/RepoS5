@@ -12,15 +12,10 @@
 </template>
 
 <script>
-
-import { TeamCard } from '../components'
-import { team } from '../assets/data'
+import { team } from '../../assets/data'
 
 export default {
-	name: 'PageTeam',
-	components: {
-		TeamCard,
-	},
+	name: 'SectionTeam',
 	data() {
 		return {
 			members: team,

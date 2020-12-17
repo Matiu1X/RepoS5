@@ -13,13 +13,8 @@
 </template>
 
 <script>
-import { NewsCard } from '../components'
-
 export default {
-	name: 'PageNews',
-	components: {
-		NewsCard
-	},
+	name: 'SectionNews',
 	data() {
 		return {
 			news: null,

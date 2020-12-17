@@ -1,0 +1,7 @@
+{
+	"store_token": "moubi-access-token",
+	"store_name": "moubi-user",
+
+	"news-url": "https://newsapi.org/v2/",
+	"login-url": "http://localhost:3000/"
+}

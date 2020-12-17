@@ -11,15 +11,10 @@
 </template>
 
 <script>
-
-import { ServiceCard } from '../components'
-import { services } from '../assets/data'
+import { services } from '../../assets/data'
 
 export default {
-	name: 'PageServices',
-	components: {
-		ServiceCard
-	},
+	name: 'SectionServices',
 	data() {
 		return {
 			services: services,

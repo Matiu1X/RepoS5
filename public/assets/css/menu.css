@@ -8,16 +8,10 @@ nav {
 }
 
 .navbar {
+	padding-top: 20px !important;
 	display: flex;
 	justify-content: space-between;
-	overflow: hidden;
 	width: 100%;
-}
-
-.navbar.sticky {
-	position: fixed;
-	top: 0px;
-        width: 100%;
 }
 
 .navbar > .logo {

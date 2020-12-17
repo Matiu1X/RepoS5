@@ -1,7 +1,7 @@
 <template>
 	<div id="header">
 		<div class="fondo-img" id="home">
-			<img src="../static/img/background-min.jpg" alt="moubi" style="width: 100%;"/>
+			<img src="../../static/img/background-min.jpg" alt="moubi" style="width: 100%;"/>
 		</div>
 	</div>
 </template>

@@ -32,14 +32,21 @@
 		
 		</div>
 		<div class="footer-end bg-dark __all">	
-			<div id="dev-footer"><i class="ico-awesome ico-heart px-5 color-complementary __all"></i></div>
+		<div id="dev-footer"><i class="ico-awesome ico-heart px-5 color-complementary __all"></i></div>
 		</div>
 	</footer>
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
-    name: 'NavFooter',
+	name: 'NavFooter',
+	computed: {
+		...mapGetters({
+			loginUser: 'doneUser'
+		})
+	}
 }
 </script>
 
