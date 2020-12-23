@@ -1,7 +1,7 @@
 <template>
 	<div class="w-10" id="signin-template">
 		<div class="d-flex flex-row justify-content-center my-1">
-			<h2 class="fs-40">LOGIN</h2>     
+			<h2 class="fs-40" style="color:black;">LOGIN</h2>     
 		</div>
 
 		<form class="d-flex flex-column">
@@ -26,7 +26,7 @@
 			</div>
 			<div class="container-fluid mb-3 d-flex justify-content-center ">
 				<button @click.prevent="LoginAccess" type="submit" class="btn btn-success px-5 py-1">SingIn</button>
-				<router-link class="mx-5" to="/signup">signup?</router-link>
+				<router-link class="mx-5" to="/signup"  style="color:#8BB8A8;">signup?</router-link>
 			</div>
 		</form>
 	</div>

@@ -1,13 +1,15 @@
-import PageAbout from './about.vue';
 import PageAdmin from './admin.vue';
-import PageHome  from './home.vue';
+import PageHome  from './frontend/Home.vue';
 import PageLogin from './login.vue';
 import PageSignup from './signup.vue';
+import PageInfo from './frontend/Info.vue';
+import PageServices from './frontend/Services.vue';
 
 export {
-	PageAbout,
 	PageAdmin,
 	PageHome,
 	PageLogin,
 	PageSignup,
+	PageServices,
+	PageInfo,
 };

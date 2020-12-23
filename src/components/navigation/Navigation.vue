@@ -1,18 +1,20 @@
 <template>
 	<b-navbar toggleable="lg" type="light" class="navbar">
-		<router-link class="navbar-brand color-secundary" to="/">
-			<img src="../../static/icon/icon_picto.svg" height="30" alt="moubi"> MÖBI
+		<router-link class="navbar-brand color-secundary" to="/" style="color:black;">
+			<h3 style="color:black;">Interact-Data</h3>
 		</router-link>
 		<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 		<b-collapse id="nav-collapse" is-nav>
 			<b-navbar-nav>
-				<b-nav-item href="#services">Services</b-nav-item>
-				<b-nav-item href="#news">News</b-nav-item>
-				<b-nav-item href="#team">Team</b-nav-item>
 				<li class="nav-item">
 					<router-link class="nav-link" to="/">Home</router-link>
 				</li>
-
+				<li class="nav-item">
+					<router-link class="nav-link" to="/services">Services</router-link>
+				</li>
+				<li class="nav-item">
+					<router-link class="nav-link" to="/info">Info</router-link>
+				</li>
 				<li class="nav-item" v-show="loginUser">
 					<router-link class="nav-link" to="/admin">Admin</router-link>
 				</li>
@@ -20,17 +22,13 @@
 			
 			<b-navbar-nav class="ml-auto">
 
-				<b-nav-form>
-					<b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-				</b-nav-form>
-
 				<b-dropdown id="dropdown-right" :text="loginUser" v-show="loginUser" right variant="primary" class="m-2">
 					<b-dropdown-item @click.prevent="Logout">Logout</b-dropdown-item>
 				</b-dropdown>
 			
 				<b-nav-item v-show="!loginUser">
 					<router-link to="/login">
-						<i class="ico-awesome ico-users color-secundary" style="font-size: 15px;"></i>
+						<v-btn color="#92D1C3" elevation="2" outlined rounded>Login</v-btn>
 					</router-link>
 				</b-nav-item>	
 			</b-navbar-nav>
